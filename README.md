@@ -17,7 +17,7 @@ DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali t
 ## 🚀 Hızlı Başlangıç (Windows)
 
 ### Kurulum:
-```bash
+
 # setup.bat'ı çalıştır (Tüm kurulum otomatik)
 setup.bat
 
@@ -25,7 +25,7 @@ setup.bat
 ## 🛠️ Kurulum (Manuel)
 
 ### Gereksinimlerin Yüklenmesi
-```bash
+
 # Python kütüphanelerini yükle
 pip install -r requirements.txt
 
