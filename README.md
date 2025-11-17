@@ -1,45 +1,45 @@
 # 🚗 ECU DSG Optimization - AI Automotive Assistant
 
-DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali tespiti ve veri analizi aracı.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![C](https://img.shields.io/badge/C-Embedded%20Systems-green)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Machine Learning](https://img.shields.io/badge/ML-Anomaly%20Detection-orange)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
+DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali tespiti ve veri analizi aracı. C ile embedded simülasyon, Python ile machine learning analizi.
 
 ## 📊 Demo Görseller
 
 ![Anomali Analizi](results/anomaly_analysis.png)
+*Anomali tespiti ve parametre dağılımı*
+
 ![Korelasyon Matrisi](results/correlation_matrix.png)
+*Parametreler arası korelasyon analizi*
 
 ## 🎯 Özellikler
-- **C Dili** - DSG şanzıman simülasyonu
-- **Python AI** - Anomali tespiti (%10 başarı)
-- **Machine Learning** - Isolation Forest algoritması
-- **Veri Görselleştirme** - Matplotlib & Seaborn
-- **Gerçek Zamanlı Analiz** - CAN-bus benzeri veri akışı
 
-## 🚀 Hızlı Başlangıç (Windows)
+- **🔧 C Dili** - Gerçekçi DSG şanzıman simülasyonu
+- **🤖 Python AI** - %10 başarı ile anomali tespiti
+- **📈 Machine Learning** - Isolation Forest algoritması
+- **🎨 Veri Görselleştirme** - Matplotlib & Seaborn ile dashboard
+- **⚡ Gerçek Zamanlı Analiz** - CAN-bus benzeri veri akışı
+- **🚀 Otomatik Kurulum** - Batch script'ler ile kolay kullanım
 
-### Kurulum:
+## 🛠️ Teknoloji Stack
 
-# setup.bat'ı çalıştır (Tüm kurulum otomatik)
-setup.bat
+| Teknoloji | Kullanım Amacı |
+|-----------|----------------|
+| **C** | Embedded systems simülasyonu |
+| **Python** | AI/ML analizi ve veri işleme |
+| **Scikit-learn** | Machine Learning algoritmaları |
+| **Pandas & NumPy** | Veri analizi ve manipülasyon |
+| **Matplotlib & Seaborn** | Veri görselleştirme |
+| **Git** | Versiyon kontrol ve proje yönetimi |
 
+## 🚀 Hızlı Başlangıç
 
-## 🛠️ Kurulum (Manuel)
+### Windows İçin (Önerilen)
 
-### Gereksinimlerin Yüklenmesi
-
-# Python kütüphanelerini yükle
-pip install -r requirements.txt
-
-# Veya tek tek yükle:
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-
-
-
+#### 📦 Otomatik Kurulum:
 ```bash
-# 1. Simülasyonu derle ve çalıştır
-cd simulations
-gcc dsg_simulator.c -o dsg_simulator.exe -lm
-./dsg_simulator.exe
-
-# 2. AI analizini çalıştır
-cd ..
-python src/data_analysis/analyzer.py
+# Tüm kurulumu otomatik yap:
+setup.bat
