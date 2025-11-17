@@ -1,21 +1,26 @@
-# Automotive DSG AI Assistant 🚗🤖
+# 🚗 ECU DSG Optimization - AI Automotive Assistant
 
-DSG (Dual-Clutch Transmission) sistemleri için AI destekli anomali tespiti ve veri analizi aracı.
+DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali tespiti ve veri analizi aracı.
+
+## 📊 Demo Görseller
+
+![Anomali Analizi](results/anomaly_analysis.png)
+![Korelasyon Matrisi](results/correlation_matrix.png)
 
 ## 🎯 Özellikler
-- **C diliyle DSG simülasyonu**
-- **Python AI analizi** 
-- **Anomali tespiti** (Isolation Forest)
-- **Görselleştirme ve raporlama**
-- **Gerçek zamanlı veri analizi**
+- **C Dili** - DSG şanzıman simülasyonu
+- **Python AI** - Anomali tespiti (%10 başarı)
+- **Machine Learning** - Isolation Forest algoritması
+- **Veri Görselleştirme** - Matplotlib & Seaborn
+- **Gerçek Zamanlı Analiz** - CAN-bus benzeri veri akışı
 
-## 🚀 Hızlı Başlangıç
+## 🛠️ Kurulum
 
 ```bash
-# 1. Simülasyonu çalıştır
+# 1. Simülasyonu derle ve çalıştır
 cd simulations
 gcc dsg_simulator.c -o dsg_simulator.exe -lm
-dsg_simulator.exe
+./dsg_simulator.exe
 
 # 2. AI analizini çalıştır
 cd ..
