@@ -9,10 +9,10 @@ DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali t
 
 ## 📊 Demo Görseller
 
-![Anomali Analizi](results/anomaly_analysis.png)
+![Anomali Analizi](anomaly_analysis.png)
 *Anomali tespiti ve parametre dağılımı*
 
-![Korelasyon Matrisi](results/correlation_matrix.png)
+![Korelasyon Matrisi](correlation_matrix.png)
 *Parametreler arası korelasyon analizi*
 
 ## 🎯 Özellikler
