@@ -16,6 +16,16 @@ DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali t
 
 ## 🛠️ Kurulum
 
+### Gereksinimlerin Yüklenmesi
+```bash
+# Python kütüphanelerini yükle
+pip install -r requirements.txt
+
+# Veya tek tek yükle:
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+
+
 ```bash
 # 1. Simülasyonu derle ve çalıştır
 cd simulations
