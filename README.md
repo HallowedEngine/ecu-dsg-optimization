@@ -14,7 +14,15 @@ DSG (Dual-Clutch Transmission) şanzıman sistemleri için AI destekli anomali t
 - **Veri Görselleştirme** - Matplotlib & Seaborn
 - **Gerçek Zamanlı Analiz** - CAN-bus benzeri veri akışı
 
-## 🛠️ Kurulum
+## 🚀 Hızlı Başlangıç (Windows)
+
+### Kurulum:
+```bash
+# setup.bat'ı çalıştır (Tüm kurulum otomatik)
+setup.bat
+
+
+## 🛠️ Kurulum (Manuel)
 
 ### Gereksinimlerin Yüklenmesi
 ```bash
