@@ -1,7 +1,11 @@
-# requirements.txt
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-jupyter>=1.0.0
+# Automotive DSG AI Assistant - Requirements
+pandas>=1.3.0      # Data analysis
+numpy>=1.21.0      # Numerical computing
+scikit-learn>=1.0.0 # Machine Learning
+matplotlib>=3.5.0  # Data visualization
+seaborn>=0.11.0    # Statistical visualization
+jupyter>=1.0.0     # Interactive development
+
+# Optional (for future development)
+# tensorflow>=2.8.0  # Deep Learning
+# opencv-python>=4.5 # Computer Vision
